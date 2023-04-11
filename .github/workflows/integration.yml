@@ -2,9 +2,10 @@ name: Integration
 
 on:
   push:
-    branches: [ development, workshop_11.04_DAT]
+
+    branches: [ development, workshop_11.04_DAT ]
   pull_request:
-    branches: [ development, workshop_11.04_DAT]
+    branches: [ development, workshop_11.04_DAT ]
     types: [opened, synchronize, reopened]   
 
 jobs:
